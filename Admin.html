@@ -1,0 +1,137 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Admin Login</title>
+</head>
+<style>
+p: {
+ 
+}
+form {
+	  width: 480px;
+	 /*  width: 900px; */
+	  height:400px;
+	  padding: 80px;
+	 /*  border: 1px solid black; */
+	  margin-left: 400px;
+	  right:100px;
+	  left:1000px;
+	  text-align:left;
+	  border-radius: 8px
+	 
+}
+a{
+	 margin-left:270px;
+	 riht:0px;
+}	
+#login{
+	 margin-left:200px;
+	 riht:0px;
+	 width: 180px;
+     height:10%;
+     border-radius: 8px;
+     text-align:center;
+    
+}
+input[type="text"] {
+    width: 250px;
+    height:10%;
+    padding-right:50px;
+    border-radius: 5px;
+    font-weight: 900;
+ }
+#name
+{
+	margin-right:0px;  
+	margin-left:50px;
+	margin-bottom:7px;
+	font-weight: 900; 
+	
+}
+#votersid
+{
+	margin-right:0px; 
+	margin-left:55px;
+ 	margin-bottom:7px;
+ 	  font-weight: 900;
+ 	 width: 250px;
+    height:10%;
+    padding-right:50px;
+    border-radius: 5px;
+    color: #f1f1f1;
+   
+  
+ }
+
+#box {
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA2v2e23Hu1S1_v2qTDpr9CXgK0-ujbDaDoXIbOvMuXH8w8uCnM7-hlGTv1oMdDYCwDPI&usqp=CAU");height:500px;background-color: blue;background-size: 1380px 1000px;background-repeat: no-repeat;background-position:center;">
+	
+
+  
+  
+ 
+  
+}
+.header
+{
+	background-image: url("https://st.depositphotos.com/1002881/1285/i/950/depositphotos_12859789-stock-photo-admin-tag.jpg");
+ 	  background-size: auto;
+	background-color: blue;
+	background-size: 1380px 200px;
+	/* max-width:1360px;
+	height:100px; */
+	background-repeat: no-repeat;
+	background-position:center;
+	
+	margin-top:0px;
+	font-size:30px;
+	color:white;
+	font-weight: 900;
+	padding: 20px 50px;
+	text-shadow: 5px 5px 15px  solid black;
+}
+
+.header a {
+	 float: left;
+  text-align: justify;
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size:30px;
+  margin-left:0px;
+  margin-right:300px;
+  text-shadow: 5px 5px 5px red;
+}
+
+
+</style> 
+<body >
+	<div class="header">
+				<p><b><a href="FrontPage.html" style="text-align:left;" >Home</a></b></p>
+				<p style="text-align:center; "><b>ADMIN LOGIN </b></p> 
+	
+	</div>
+	
+			
+  
+
+
+<!-- <div class ="header">
+	
+</div>  -->
+<div id="box" >
+
+
+	
+	<form style="/* background-color:hsl(68, 100%, 89%); */margin-top:10px; align:center;" method="post"  action="AdminFormServlet" >	
+		<b>Username</b>: <span class="required">*</span> <input style="color:solid-black;font-weight: 900;" type="text"  id="name" name="Username"   placeholder="Enter Name"  required /> <p style="color:red; text-align:right; margin-top:0px;"></p>
+	    <b>Password:</b> <span class="required">*</span><input style="color:solid-black;font-weight: 900;" type="password" id="votersid"  name="Password"  placeholder="********" required /><br></br>   
+		<input  style="color:solid-black;font-weight: 900;" class="log" type="submit" id="login"  value="Sign In"/>
+	</form> 
+</div>
+
+</body>
+</html>
