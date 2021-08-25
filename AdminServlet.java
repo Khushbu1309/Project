@@ -18,12 +18,6 @@ import javax.servlet.http.HttpServletResponse;
  */
 @WebServlet("/AdminServlet")
 public class AdminServlet extends HttpServlet {
-
-
-
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = -1629090380941498104L;
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

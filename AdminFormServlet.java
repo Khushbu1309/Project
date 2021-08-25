@@ -38,7 +38,7 @@ public class AdminFormServlet extends HttpServlet {
 			boolean rs=rs1.next()==true;
 			if(rs==true)
 			{
-				response.sendRedirect("Admin1.html");	
+				response.sendRedirect("Welcome_Admin_Page.html");	
 			}
 			else
 			{

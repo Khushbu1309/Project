@@ -66,7 +66,7 @@ public class RegisterationInsertionServlet extends HttpServlet {
 				ps.executeUpdate();
 				ps.close();
 				con.close();
-				response.sendRedirect("registrationform.html");
+				response.sendRedirect("registrationform2.html");
 			}
 		} 
 		catch (Exception e) {

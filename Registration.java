@@ -1,4 +1,4 @@
-
+/*
 public class Registration {
 	static String name;
 	static int votersid;
@@ -51,3 +51,4 @@ public class Registration {
 	}
 
 }
+*/

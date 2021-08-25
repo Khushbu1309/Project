@@ -42,12 +42,12 @@ public class LoginServlet extends HttpServlet {
 		    
 			if(rs.next()==false)
 			{
-				response.sendRedirect("Login.html");
+				response.sendRedirect("voting_Result.html");
 				
 			}
 		    else if(rs1.next()==true)
 			{
-				response.sendRedirect("Login1.html");
+				response.sendRedirect("login_Result.html");
 				
 			}
 			else {
@@ -61,7 +61,7 @@ public class LoginServlet extends HttpServlet {
 				ps.executeUpdate();
 				ps.close();
 				con.close();
-				response.sendRedirect("Voting.html");
+				response.sendRedirect("vote_For_Party.html");
 				
 		  }
 		} 
