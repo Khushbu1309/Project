@@ -25,9 +25,9 @@
 </style>
 <body>
 		<div class ="page">
-	<p>YOU HAVE SUCCESSFULLY VOTED</p><br><br>
-	<a href="FrontPage.html" target="_blank">Home</a>
-</div>
+			<p>YOU HAVE SUCCESSFULLY VOTED</p><br><br>
+			<a href="FrontPage.html" target="_blank">Home</a>
+		</div>
 		
 
 </body>

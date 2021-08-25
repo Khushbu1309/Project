@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Online Voting Election </title>
+<style>
+	div a{
+		
+		font-size:17px;
+		margin-right:5px;
+		margin-left:70px;
+		padding:10px;
+		text-shadow: 3px 3px black;
+		/* text-shadow: 2px 2px 4px #000000; */
+	}
+	
+	
+	
+	.dropdown:hover .dropdown-content {display: block;}
+	
+	.dropdown:hover .dropbtn {background-color: #3e8e41;}
+		
+	.mySlides {display:none;width:1357px;height:358px;;}
+	
+	
+	a {
+	  color:white 
+	  margin-left:5px;
+	  margin-bottom:27px; 
+	  margin-top:20px;
+	  
+	 
+	} 
+	  a:link, a:visited {
+	
+	  color: white;
+	  text-decoration: none;
+	  display: inline-block;
+	} 
+	
+  	div form{
+  		height:15px;;
+  		width:100px;
+  		border:5 px;
+  	}
+	
+	
+div.head{
+	margin-top:0px;
+}
+
+</style>
+</head>
+<body>
+		<div class="head" style="margin-top:0px;margin-bottom:0px;;background-image: url('https://english.cdn.zeenews.com/sites/default/files/styles/zm_700x400/public/2020/08/21/880614-ec-970.jpg'),url(' https://newsonair.gov.in/writereaddata/News_Pictures/STA/2021/Jan/NPIC-2021117113528.jpg'),url('https://english.cdn.zeenews.com/sites/default/files/styles/zm_700x400/public/2020/08/21/880614-ec-970.jpg');height:180px; background-size: 1020px 200px,185px 180px,185px 180px; background-repeat: no-repeat,no-repeat ,no-repeat;background-position:center,left,right; background-color: #cccccc;"></div>
+
+	
+		<div class="header" style="width:1357px; height:70px;background-color:black;margin-top:0px; ">
+				<b><a href="FrontPage.html" target="_blank">Home</a></b>
+				<b><a href="RegistrationForm.jsp" target="_blank">Registration</a></b>
+				<b><a href="LoginForm.jsp" target="_blank">Login</a></b>
+				
+				<b><a href="Voters_List_Result.jsp">Voters List</a></b>
+				<b><a href="Bar_Graph_Voting_Result.jsp" target="_blank">Percentage Result</a></b>
+				<b><a href="Admin_Login.html">Admin Login</a></b>
+				<b><a href="Help.html" target="_blank">Help</a></b>	
+				
+	  	</div> 
+
+  
+  	
+		<div class="slides">
+	
+			<div> <img class="mySlides" src="https://img.jagranjosh.com/imported/images/E/GK/One_Nation_One_Election.jpg">
+			</div>
+			<div><img class="mySlides" src="https://img.freepik.com/free-vector/abstract-election-vote-india-background_1017-17716.jpg?size=338&ext=jpg">
+			</div>
+			<div><img class="mySlides" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Flag_of_Nationalist_Congress_Party.svg/1200px-Flag_of_Nationalist_Congress_Party.svg.png">
+			</div>
+		</div>
+	
+		<script>
+			var myIndex = 0;
+			carousel();
+			
+			function carousel() {
+			  var i;
+			  var x = document.getElementsByClassName("mySlides");
+			  for (i = 0; i < x.length; i++) {
+			    x[i].style.display = "none";  
+			  }
+			  myIndex++;
+			  if (myIndex > x.length) {myIndex = 1}    
+			  x[myIndex-1].style.display = "block";  
+			  setTimeout(carousel, 2000);
+			}
+		</script>
+
+
+
+</body>
+</html>
